@@ -1,3 +1,8 @@
+	Pour le moment avant de fair e lien entre les 2 taches bien lancer 
+	  ./gradlew jacocoTestReport
+	  ./gradlew sonarqube   -Dsonar.host.url=http://127.0.0.1:9000   -Dsonar.login=211b9a42f50be9e51aefd0a6072b5d4e25080880
+
+
 # SonarqubeDemo
 
 #### Installing SonarQube
@@ -48,3 +53,5 @@ Note: for Android Studio, which follows the gradle directory structure, set the 
 
 2. Run ./gradlew sonarqube command to start the analysis.
 3. Once the analysis complets, head to localhost:9000 to see the results for your project.
+
+
